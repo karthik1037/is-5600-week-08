@@ -4,6 +4,7 @@ const { mockDb } = require('./db.mock');
 
 // mock DB before importing products
 jest.mock('../db', () => mockDb);
+//
 
 const { list } = require('../products');
 
